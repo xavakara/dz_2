@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="оформление билета"
+        android:textColor="#C33"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <EditText
+        android:id="@+id/nameIn"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="540dp"
+        android:background="#E1ECEF"
+        android:ems="10"
+        android:hint="имя"
+        android:paddingStart="14sp"
+        android:textColor="@color/black"
+        android:textColorHint="#C169"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/patronymicIn"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="360dp"
+        android:background="#E1ECEF"
+        android:ems="10"
+        android:hint="отчество"
+        android:paddingStart="14sp"
+        android:textColor="@color/black"
+        android:textColorHint="#C169"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/surnameIn"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="452dp"
+        android:background="#E1ECEF"
+        android:ems="10"
+        android:hint="Фамилия"
+        android:paddingStart="14sp"
+        android:textColor="@color/black"
+        android:textColorHint="#C169"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/dateIn"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="268dp"
+        android:background="#E1ECEF"
+        android:ems="10"
+        android:hint="день.мес.год."
+        android:paddingStart="14sp"
+        android:textColor="@color/black"
+        android:textColorHint="#C169"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="175dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="отправление 13:50"
+        android:textColor="#C343"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.724" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="175dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="прибытие  21:50"
+        android:textColor="#C383"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.724" />
+
+    <TextView
+        android:id="@+id/many"
+        android:layout_width="245dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="cтоимость билета: 800 руб"
+        android:textColor="#C353"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="548dp"
+        android:backgroundTint="#C40"
+        android:text="оформить билет"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
